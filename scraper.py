@@ -18,3 +18,4 @@ for post in news:
 
     print('Date: ', entry_header.find('span', class_='date').text.strip())
     print('')
+
